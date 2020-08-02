@@ -11,15 +11,17 @@ Simpler UI transitions may look passable, but more complex UI will be unusable i
 
 ## Test
 
-Fragment #1:
-Translucent toolbar
-Static toolbar
-Top of content meets the top of the toolbar
+**Fragment #1:**
 
-Fragment #2:
-Opaque toolbar
-Toolbar scrolls in sync with the content
-Top of content meets the bottom of the toobar
+- Translucent toolbar
+- Static toolbar
+- Top of content meets the top of the toolbar
+
+**Fragment #2:**
+
+- Opaque toolbar
+- Toolbar scrolls in sync with the content
+- Top of content meets the bottom of the toobar
 
 Alignment and scrolling behavior is set by a CollapsingToolbarLayout's scroll flags and a FragmentContainerView's scroll behavior.
 
