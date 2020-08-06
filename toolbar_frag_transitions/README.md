@@ -31,9 +31,9 @@ Tapping a button replaces one fragment with the other, back and forth.
 
 Each fragment by itself looks fine, but transitioning between the two shows problems.
 
-Tapping the button will immediately move the top of the content to the same guidelines as the top of the content for the other fragment. The toolbar also does not transition.
+Tapping the button will immediately move the top of the content to the same guidelines as the top of the content for the other fragment.
 
 Unknown if the toolbar can be animated, since it is set by layout parameters that don't seem to be tied to anything that I can animate myself.
 
 If the fragment's content's top location can be kept as it while transitioning to a fragment with a different type of alignment, this seems like something that would be good for a production application.
-I personally wouldn't want to use this is this problem exists.
+I personally wouldn't want to use this if this problem exists.
